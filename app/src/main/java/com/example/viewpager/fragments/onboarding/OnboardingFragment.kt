@@ -20,14 +20,15 @@ class OnboardingFragment: Fragment() {
         val view = binding.root
         initViewPager()
         return view
-
     }
 
 
     private fun initViewPager() {
         val adapter = ViewPagerAdapter(requireActivity())
         binding.viewPager.adapter = adapter
+        //animation
         binding.viewPager.setPageTransformer(DepthPageTransformer())
+        //Indicator
         binding.dotsIndicator.setViewPager2(binding.viewPager)
     }
 }
