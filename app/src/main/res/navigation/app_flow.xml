@@ -6,22 +6,34 @@
 
     <fragment
         android:id="@+id/onboardingFragment"
-        android:name="com.example.viewpager.fragments.OnboardingFragment"
+        android:name="com.example.viewpager.fragments.onboarding.OnboardingFragment"
         android:label="OnboardingFragment" >
         <action
             android:id="@+id/action_onboardingFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/onboardingFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.viewpager.fragments.SplashFragment"
+        android:name="com.example.viewpager.fragments.splash.SplashFragment"
         android:label="SplashFragment" >
         <action
             android:id="@+id/action_splashFragment_to_onboardingFragment"
-            app:destination="@id/onboardingFragment" />
+            app:destination="@id/onboardingFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.viewpager.fragments.HomeFragment"
+        android:name="com.example.viewpager.fragments.home.HomeFragment"
         android:label="HomeFragment" />
 </navigation>

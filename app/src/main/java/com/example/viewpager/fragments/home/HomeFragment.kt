@@ -1,4 +1,4 @@
-package com.example.viewpager.fragments
+package com.example.viewpager.fragments.home
 
 import android.os.Binder
 import android.os.Bundle

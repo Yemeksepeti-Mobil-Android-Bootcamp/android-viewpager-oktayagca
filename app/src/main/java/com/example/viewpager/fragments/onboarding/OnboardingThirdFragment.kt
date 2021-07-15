@@ -1,4 +1,4 @@
-package com.example.viewpager.fragments
+package com.example.viewpager.fragments.onboarding
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,9 +19,13 @@ class OnboardingThirdFragment:Fragment() {
     ): View? {
         binding = FragmentOnboardingThirdBinding.inflate(layoutInflater,container,false)
         val view = binding.root
+       initViews()
+        return view
+    }
+
+    private fun initViews() {
         binding.homeButton.setOnClickListener(){
             findNavController().navigate(R.id.action_onboardingFragment_to_homeFragment)
         }
-        return view
     }
 }

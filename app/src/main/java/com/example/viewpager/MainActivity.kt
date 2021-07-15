@@ -1,10 +1,7 @@
 package com.example.viewpager
-
-import DepthPageTransformer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.viewpager.databinding.ActivityMainBinding
-import com.example.viewpager.utils.ViewPagerAdapter
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding:ActivityMainBinding

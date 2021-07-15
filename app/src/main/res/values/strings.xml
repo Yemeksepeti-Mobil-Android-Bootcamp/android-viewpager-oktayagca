@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">viewpager</string>
+    <string name="onboarding_first_text">Listen to the sound of the music.\n Find musicians around you.</string>
+    <string name="onboarding_third_text">Finally.Start making music together\n and enjoy the fun</string>
+    <string name="onboarding_second_text">Meet and chat with them.If you believe\n do good things together</string>
+    <string name="next">next</string>
+    <string name="get_started">Get Started</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.viewpager.fragments
+package com.example.viewpager.fragments.onboarding
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View

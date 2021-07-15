@@ -1,10 +1,9 @@
-package com.example.viewpager.fragments
+package com.example.viewpager.fragments.onboarding
 import DepthPageTransformer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.viewpager.databinding.FragmentOnboardingBinding
 import com.example.viewpager.utils.ViewPagerAdapter
@@ -21,7 +20,6 @@ class OnboardingFragment: Fragment() {
         initViewPager()
         return view
     }
-
 
     private fun initViewPager() {
         val adapter = ViewPagerAdapter(requireActivity())

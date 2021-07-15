@@ -1,4 +1,4 @@
-package com.example.viewpager.fragments
+package com.example.viewpager.fragments.splash
 
 import android.animation.Animator
 import android.os.Bundle
